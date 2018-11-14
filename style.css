@@ -1,0 +1,96 @@
+h1 {
+  color: #2F4858;
+  font-size: 25px;
+  line-height: 1.5;
+}
+
+h2, h3 {
+  color: #88A0A8;
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+h1, h2, h3 {
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  background-image:url(images/beach-bridge-clouds-1248739.jpg);
+  background-size: cover;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 14px;
+  color: #384D48;
+  line-height: 1.1;
+}
+
+
+a {
+  color: #2F4858;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #DD5555;
+  text-decoration: none;
+}
+
+.container {
+  width: 650px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card {
+  background: #F7F8F8;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.text-center {
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+#img-profile {
+  width: 350px;
+  height: 350px;
+}
+
+.logo a {
+  font-size: 1.5em;
+}
+
+#things-liked {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6em
+}
